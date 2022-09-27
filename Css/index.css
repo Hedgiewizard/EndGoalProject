@@ -1,0 +1,93 @@
+/*Base for the whole page*/
+body{
+    background-color: rgb(20, 35, 62);
+    color: rgb(200, 205, 212);
+}
+
+/* Headed Css */
+.header img{
+    width: 15%;
+    padding: 0.5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+/* Bio CSS */
+.name{
+    color: #c5fafa;
+}
+
+.nameAndDate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.nameAndDate{
+    padding-left: 1rem;
+}
+
+.why{
+    padding-left: 1rem;
+}
+
+.profilePicture{
+    /* display: flex;
+    width: 55%;
+    height: 100%;
+    display: inline-block; */
+    flex-shrink: 2;
+}
+
+.theWhy{
+    font-size: 20px;
+    color: #c5fafa;
+}
+
+.theText{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    height: 100%;
+    width: auto;
+    flex-shrink: 1;
+}
+
+.why{
+    background-color: gray;
+    padding: 0.75rem;
+}
+
+.bio{
+    display: flex;
+    flex-direction: center;
+    padding: 0rem 5rem 2rem 5rem;
+    height: 400px;
+}
+/* Exited to Learn Css */
+
+.exitedToLearn{
+    padding: 0rem 5rem 2rem 5rem;
+}
+
+.expo{
+    background-color: gray;
+    padding: 2rem;
+}
+
+.exited{
+    color: #c5fafa;
+    font-size: 30px;
+}
+
+.what{
+    color: #c5fafa;
+    font-size: 20px;
+}
+
+/* Footer Css */
+.footer{
+    display: flex;
+    justify-content: center;
+}
